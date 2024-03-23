@@ -62,12 +62,12 @@ const Index = () => {
         <title>Privy PWA Template</title>
       </Head>
       <main>
-        <div className="flex h-screen w-screen flex-col items-center justify-center">
-          <h1 className="text-2x">Sr. Degen</h1>
+        <div className="flex h-screen w-screen flex-col items-center justify-center text-center">
+          <h1 className="text-2xl">🎩 Sr. Degen</h1>
           <h2 className="my-4 text-xl font-semibold text-gray-800">
             Your trustworthy and legend-telling bartender.
           </h2>
-          <div className="mt-2 w-1/2">
+          <div className="mt-2 w-1/2 md:w-1/4 lg:w-1/5 xl:w-1/6">
             {!isInstalled && isAndroid ? (
               <button
                 className="my-4 w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm disabled:bg-indigo-400"
